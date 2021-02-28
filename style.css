@@ -1,0 +1,27 @@
+.body{
+
+	background:coral;
+
+}
+.container{
+    position: absolute;
+	top:40%;
+	left:50%;
+	transform:translate(-50%,-50%);
+
+	width:500px;
+	background:lightgreen;
+	opacity: 0.8;
+	padding:25px;
+	border-radius:10px;
+	box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+		
+}
+#form_group{
+padding: 10px;
+	width:100px%;
+}
+
+input[type="text"],[type="phone"]{
+	width:100%;
+}
