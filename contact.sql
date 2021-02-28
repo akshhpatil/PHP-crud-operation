@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 28, 2021 at 06:54 AM
+-- Generation Time: Feb 28, 2021 at 11:10 AM
 -- Server version: 10.1.32-MariaDB
 -- PHP Version: 7.0.30
 
@@ -41,8 +41,7 @@ CREATE TABLE `course` (
 --
 
 INSERT INTO `course` (`id`, `name`, `email`, `phone`, `address`) VALUES
-(3, 'yugant kailas majahan', 'yugant@gmail.com', '07666763883', 'gopal nagar'),
-(4, 'manali s', 'akshay@gmail.com', '07666763883', 'Raver ,Gopal Nagar');
+(1, 'admin', 'admin@gmail.com', '9898989890', 'pune');
 
 --
 -- Indexes for dumped tables
@@ -62,7 +61,7 @@ ALTER TABLE `course`
 -- AUTO_INCREMENT for table `course`
 --
 ALTER TABLE `course`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
